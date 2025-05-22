@@ -25,7 +25,7 @@ console.log(a); // 10
 console.log(b); // ReferenceError: b is not defined
 console.log(c); // ReferenceError: c is not defined */
 
-/* Shadowing in JavaScript 
+/* Shadowing in JavaScript */
 
 var a=107;
 let b = 100;
@@ -44,7 +44,7 @@ console.log(c); // 305
 }
 console.log(a); // 10
 console.log(b); // 100
-console.log(c); // 305 */
+console.log(c); // 305 
 
 /* Shadowing allows us to use the same variable name in different scopes without conflict.
 In the above example, the variable 'a' is shadowed in the block scope, but 'b' and 'c' are not shadowed because they are declared with 'let' and 'const', which have block scope.   */
